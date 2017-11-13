@@ -1,0 +1,4 @@
+{
+    "maps_key" : "SOME_ KEY",// <-- Replace with Google Maps api key,
+    "weather_key": "DARK_SKY_KEY" // <-- Replace with Dark Sky api key
+}

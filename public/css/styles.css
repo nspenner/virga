@@ -1,0 +1,101 @@
+body {
+    padding-top: 75px;    
+    background-color: #c05858;
+    margin: 20px
+}
+
+div {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+span {
+    color: #FDE8BA;
+}
+
+.summary {
+    text-align: left;
+    font-size: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+#address_form {
+    font-family: Rozha One;
+    background-color: #0B3C49;
+    color: #FDE8BA;
+    box-shadow: none;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    width: 65%px;
+    height: 30px;
+}
+
+#button{
+    transition: background-color 0.5s ease;
+    width: 100px;
+    height: 40px;
+    margin: 30px 0 70px 0;
+    background-color: #FDE8BA;
+    border:  none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #0b3c49;
+}
+
+#button:hover {
+    background-color: #0b3c49;
+    color: #FDE8BA;
+}
+
+#back_button{
+    transition: background-color 0.5s ease;
+    width: 200;
+    height: 80px;
+    margin: 15px 15px 75px 15px ;
+    background-color: #FDE8BA;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #0b3c49
+}
+
+#back_button:hover {
+    background-color: #0b3c49;
+    color: #FDE8BA;
+}
+
+
+h1 {
+    font-size: 45px;
+    color: #FDE8BA;
+    text-align: center;
+    font-family: "Rozha One", serif;
+}
+
+h2 {
+    font-size: 30px;
+    color: #0B3C49;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer {
+    width: 100%;
+    background-color: #0B3C49;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    color: #FDE8BA
+}

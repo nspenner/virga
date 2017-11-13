@@ -1,0 +1,15 @@
+<% include partials/header.ejs %>
+
+<h1>Virga Weather</h1>
+<h2>Look up your address below.</h2>
+<form action="/result" method="GET">
+    <div>
+        <input id="address_form" type="text" placeholder="1234 Wallaby Lane, Springfield, IL" name="search" >
+    </div>
+    <div>
+        <input id="button" type="submit" value="Submit">
+    </div>
+    
+</form>
+
+<% include partials/footer.ejs %>

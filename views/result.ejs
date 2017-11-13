@@ -1,0 +1,18 @@
+<% include partials/header.ejs %>
+<% var address = mapData.results[0].formatted_address %>
+<% var weather = weatherData.currently %>
+<h1>Weather summary for <%= address %></h1>
+
+<div>
+    <h2 class="summary"> <%= weather.summary %> with a current temperature of <span><%= weather.temperature %>°F</span></h2>
+    <h2 class="summary">Feels like <span> <%= weather.apparentTemperature %>°F</span></h2>
+    <h2 class="summary">Wind speeds of <span> <%= weather.windSpeed %> mph.</span></h2>
+    <h2 class="summary">Dewpoint at <span><%= weather.dewPoint %>°F</span></h2>
+    <h2 class="summary">Pressure of <span><%= weather.pressure %>mb</span> </h2>
+</div>
+
+<form action="/" method="get">
+    <button id="back_button" type="submit">Make another request</button>
+</form>
+
+<% include partials/footer.ejs %>
